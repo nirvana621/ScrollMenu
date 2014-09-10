@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8B2E22A19BF7AAB009A7998 /* TouchPropagatedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B2E22919BF7AAB009A7998 /* TouchPropagatedScrollView.m */; };
 		D8D0813319BF677E005B2EF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D0813219BF677E005B2EF7 /* Foundation.framework */; };
 		D8D0813519BF677E005B2EF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D0813419BF677E005B2EF7 /* CoreGraphics.framework */; };
 		D8D0813719BF677E005B2EF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D0813619BF677E005B2EF7 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8B2E22819BF7AAB009A7998 /* TouchPropagatedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchPropagatedScrollView.h; path = ScrollMenu/TouchPropagatedScrollView.h; sourceTree = "<group>"; };
+		D8B2E22919BF7AAB009A7998 /* TouchPropagatedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchPropagatedScrollView.m; path = ScrollMenu/TouchPropagatedScrollView.m; sourceTree = "<group>"; };
 		D8D0812F19BF677E005B2EF7 /* ScrollMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D0813219BF677E005B2EF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8D0813419BF677E005B2EF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +85,8 @@
 		D8D0812619BF677E005B2EF7 = {
 			isa = PBXGroup;
 			children = (
+				D8B2E22819BF7AAB009A7998 /* TouchPropagatedScrollView.h */,
+				D8B2E22919BF7AAB009A7998 /* TouchPropagatedScrollView.m */,
 				D8D0813819BF677E005B2EF7 /* ScrollMenu */,
 				D8D0815719BF677E005B2EF7 /* ScrollMenuTests */,
 				D8D0813119BF677E005B2EF7 /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				D8D0814919BF677E005B2EF7 /* ScrollMenuViewController.m in Sources */,
 				D8D0814319BF677E005B2EF7 /* ScrollMenuAppDelegate.m in Sources */,
+				D8B2E22A19BF7AAB009A7998 /* TouchPropagatedScrollView.m in Sources */,
 				D8D0813F19BF677E005B2EF7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				D8D0816319BF677E005B2EF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8D0816419BF677E005B2EF7 /* Build configuration list for PBXNativeTarget "ScrollMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				D8D0816619BF677E005B2EF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
