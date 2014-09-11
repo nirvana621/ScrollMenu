@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D87BCA0F19C16C9900F9EF0B /* MenuHrizontal.m in Sources */ = {isa = PBXBuildFile; fileRef = D87BCA0E19C16C9900F9EF0B /* MenuHrizontal.m */; };
 		D8B2E22A19BF7AAB009A7998 /* TouchPropagatedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B2E22919BF7AAB009A7998 /* TouchPropagatedScrollView.m */; };
 		D8D0813319BF677E005B2EF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D0813219BF677E005B2EF7 /* Foundation.framework */; };
 		D8D0813519BF677E005B2EF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D0813419BF677E005B2EF7 /* CoreGraphics.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D87BCA0D19C16C9900F9EF0B /* MenuHrizontal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuHrizontal.h; path = ScrollMenu/UI/Common/MenuHrizontal.h; sourceTree = "<group>"; };
+		D87BCA0E19C16C9900F9EF0B /* MenuHrizontal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuHrizontal.m; path = ScrollMenu/UI/Common/MenuHrizontal.m; sourceTree = "<group>"; };
 		D8B2E22819BF7AAB009A7998 /* TouchPropagatedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchPropagatedScrollView.h; path = ScrollMenu/TouchPropagatedScrollView.h; sourceTree = "<group>"; };
 		D8B2E22919BF7AAB009A7998 /* TouchPropagatedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchPropagatedScrollView.m; path = ScrollMenu/TouchPropagatedScrollView.m; sourceTree = "<group>"; };
 		D8D0812F19BF677E005B2EF7 /* ScrollMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,9 +85,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D87BCA0B19C16C1300F9EF0B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D87BCA0C19C16C1C00F9EF0B /* Common */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		D87BCA0C19C16C1C00F9EF0B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D87BCA0D19C16C9900F9EF0B /* MenuHrizontal.h */,
+				D87BCA0E19C16C9900F9EF0B /* MenuHrizontal.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		D8D0812619BF677E005B2EF7 = {
 			isa = PBXGroup;
 			children = (
+				D87BCA0B19C16C1300F9EF0B /* UI */,
 				D8B2E22819BF7AAB009A7998 /* TouchPropagatedScrollView.h */,
 				D8B2E22919BF7AAB009A7998 /* TouchPropagatedScrollView.m */,
 				D8D0813819BF677E005B2EF7 /* ScrollMenu */,
@@ -257,6 +278,7 @@
 			files = (
 				D8D0814919BF677E005B2EF7 /* ScrollMenuViewController.m in Sources */,
 				D8D0814319BF677E005B2EF7 /* ScrollMenuAppDelegate.m in Sources */,
+				D87BCA0F19C16C9900F9EF0B /* MenuHrizontal.m in Sources */,
 				D8B2E22A19BF7AAB009A7998 /* TouchPropagatedScrollView.m in Sources */,
 				D8D0813F19BF677E005B2EF7 /* main.m in Sources */,
 			);
